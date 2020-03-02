@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "RockPaperScissors/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RockPaperScissors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RockPaperScissors.dll": {}
+        }
       }
     }
   },
@@ -673,11 +683,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "RockPaperScissors/1.0.0": {
+      "type": "project",
+      "path": "../RockPaperScissors/RockPaperScissors.csproj",
+      "msbuildProject": "../RockPaperScissors/RockPaperScissors.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "RockPaperScissors >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -707,7 +723,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissors/RockPaperScissors.csproj": {
+              "projectPath": "/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissors/RockPaperScissors.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

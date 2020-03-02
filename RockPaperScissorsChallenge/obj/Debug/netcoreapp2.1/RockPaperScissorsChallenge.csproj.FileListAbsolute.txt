@@ -1,0 +1,14 @@
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissorsChallenge/bin/Debug/netcoreapp2.1/RockPaperScissorsChallenge.deps.json
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissorsChallenge/bin/Debug/netcoreapp2.1/RockPaperScissorsChallenge.runtimeconfig.json
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissorsChallenge/bin/Debug/netcoreapp2.1/RockPaperScissorsChallenge.runtimeconfig.dev.json
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissorsChallenge/bin/Debug/netcoreapp2.1/RockPaperScissorsChallenge.dll
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissorsChallenge/bin/Debug/netcoreapp2.1/RockPaperScissorsChallenge.pdb
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissorsChallenge/bin/Debug/netcoreapp2.1/RockPaperScissors.dll
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissorsChallenge/bin/Debug/netcoreapp2.1/RockPaperScissors.pdb
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissorsChallenge/obj/Debug/netcoreapp2.1/RockPaperScissorsChallenge.csprojAssemblyReference.cache
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissorsChallenge/obj/Debug/netcoreapp2.1/RockPaperScissorsChallenge.csproj.CoreCompileInputs.cache
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissorsChallenge/obj/Debug/netcoreapp2.1/RockPaperScissorsChallenge.AssemblyInfoInputs.cache
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissorsChallenge/obj/Debug/netcoreapp2.1/RockPaperScissorsChallenge.AssemblyInfo.cs
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissorsChallenge/obj/Debug/netcoreapp2.1/RockPaperScissorsChallenge.csproj.CopyComplete
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissorsChallenge/obj/Debug/netcoreapp2.1/RockPaperScissorsChallenge.dll
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissorsChallenge/obj/Debug/netcoreapp2.1/RockPaperScissorsChallenge.pdb

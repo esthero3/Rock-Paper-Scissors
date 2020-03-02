@@ -1,0 +1,9 @@
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissors/bin/Debug/netstandard2.0/RockPaperScissors.deps.json
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissors/bin/Debug/netstandard2.0/RockPaperScissors.dll
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissors/bin/Debug/netstandard2.0/RockPaperScissors.pdb
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissors/obj/Debug/netstandard2.0/RockPaperScissors.csprojAssemblyReference.cache
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissors/obj/Debug/netstandard2.0/RockPaperScissors.csproj.CoreCompileInputs.cache
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissors/obj/Debug/netstandard2.0/RockPaperScissors.AssemblyInfoInputs.cache
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissors/obj/Debug/netstandard2.0/RockPaperScissors.AssemblyInfo.cs
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissors/obj/Debug/netstandard2.0/RockPaperScissors.dll
+/Users/esthero3/Documents/GitHub/cs30-challenge-rockpaperscissors-esthero3/RockPaperScissors/obj/Debug/netstandard2.0/RockPaperScissors.pdb
