@@ -18,49 +18,73 @@ namespace RockPaperScissors
         //method to play the game
         public void Play()
         {
-            string userChoice;
-            userChoice = PromptUser();
-
-            while (userChoice != "Q")
+            try
             {
-                string computerChoice = GetComputerChoice();
-                DetermineWinner(userChoice, computerChoice);
-                PrintScore();
-                Console.Clear();
+                string userChoice;
                 userChoice = PromptUser();
+
+                while (userChoice != "Q")
+                {
+                    string computerChoice = GetComputerChoice();
+                    DetermineWinner(userChoice, computerChoice);
+                    PrintScore();
+                    Console.Clear();
+                    userChoice = PromptUser();
+                }
+                
             }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error:" + e.Message);
+            }
+            
         }
 
         //method to print score
         private void PrintScore()
         {
-            Console.WriteLine();
-            Console.WriteLine("wins: {0}", wins);
-            Console.WriteLine("losses: {0}", losses);
-            Console.WriteLine("ties: {0}", ties);
-            Console.WriteLine("Press enter to continue...");
-            Console.ReadLine();
+            try
+            {
+                Console.WriteLine();
+                Console.WriteLine("wins: {0}", wins);
+                Console.WriteLine("losses: {0}", losses);
+                Console.WriteLine("ties: {0}", ties);
+                Console.WriteLine("Press enter to continue...");
+                Console.ReadLine();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error:" + e.Message);
+            }
+            
 
         }
 
             //determines the winner of the round
             private void DetermineWinner(String userChoice, string computerChoice)
             {
-                if (userChoice == computerChoice)
+                try
                 {
-                    ties++;
-                    Console.WriteLine("You both picked {0}, you tied!", ConvertChoiceToWord(userChoice));
+                    if (userChoice == computerChoice)
+                    {
+                        ties++;
+                        Console.WriteLine("You both picked {0}, you tied!", ConvertChoiceToWord(userChoice));
+                    } 
+                    else if (userChoice == "R" && computerChoice == "S" || userChoice == "S" && computerChoice == "P" || userChoice == "P" && computerChoice == "R")
+                    {
+                        wins++;
+                        Console.WriteLine("You picked {0} and the computer picked {1}, you win! attaboy!", ConvertChoiceToWord(userChoice), ConvertChoiceToWord(computerChoice));
+                    }
+                    else 
+                    {
+                        losses++;
+                        Console.WriteLine("You picked {0} and the computer picked {1}, you lose! L!", ConvertChoiceToWord(userChoice), ConvertChoiceToWord(computerChoice));
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Error:" + e.Message);
                 } 
-                else if (userChoice == "R" && computerChoice == "S" || userChoice == "S" && computerChoice == "P" || userChoice == "P" && computerChoice == "R")
-                {
-                    wins++;
-                    Console.WriteLine("You picked {0} and the computer picked {1}, you win! attaboy!", ConvertChoiceToWord(userChoice), ConvertChoiceToWord(computerChoice));
-                }
-                else 
-                {
-                    losses++;
-                    Console.WriteLine("You picked {0} and the computer picked {1}, you lose! L!", ConvertChoiceToWord(userChoice), ConvertChoiceToWord(computerChoice));
-                }
             }
 
         //gets the computer's choice
